@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Heapsheeps LLC creates simple tools for better golf, including Fore Finder and BLP Tools. Contact kevin@heapsheeps.com for support.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <title>Heapsheeps</title>
+  <style>
+    /* Dark Theme Styles */
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem;
+      line-height: 1.5;
+    }
+    a {
+      color: #40ffc9; /* Spotify-like green link color; pick any color you prefer */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header,
+    footer {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      margin: 0.5rem 0 0.0rem 0;
+    }
+    h2,
+    h3 {
+      margin: .5rem 0; /* Tighter spacing above/below headings */
+    }
+    p {
+      margin: 0.5rem 0; /* Tighter spacing around paragraphs */
+    }
+
+    .apps {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem; /* Reduced gap from 2rem */
+      justify-content: center;
+    }
+
+    .app {
+      flex: 1 1 200px;
+      min-width: 200px;
+      border: 1px solid #333333;
+      border-radius: 4px;
+      padding: 1rem;
+      text-align: center;
+      background-color: #1D1D1D;
+    }
+
+    /* Container to hold icon and title on a single line */
+    .app-heading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+    /* Override link color within .app-heading */
+    .app-heading a,
+    .app-heading a:visited,
+    .app-heading a:hover,
+    .app-heading a:active {
+      color: #ffffff; 
+      text-decoration: none;
+    }
+    .app-heading img.app-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 15px; /* Rounded corners for an iPhone-like icon */
+    }
+
+    /* Screenshot styling */
+    .app-screenshot {
+      max-width: 100%;
+      border-radius: 4px; /* Slight round corners for screenshot */
+      margin: 0.5rem 0;
+    }
+
+    .contact {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      color: #aaaaaa;
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Heapsheeps LLC</h1>
+    <p><i><span style="color: #aaaaaa">I'm a solo developer making tools to solve problems I come across. Usually golf-related, but not always!</span></i></p>
+  </header>
+
+  <section>
+    <h2>Apps</h2>
+    <div class="apps">
+
+      <div class="app">
+        <a href="https://apps.apple.com/us/app/fore-finder/id6478720860" class="app-heading">
+          <img class="app-icon" src="images/fore-finder-icon.png" alt="Fore Finder Icon">
+          <h3>Fore Finder</h3>
+        </a>
+        <p>A simple tool for finding your drives and planning better shots.</p>
+        <a href="https://apps.apple.com/us/app/fore-finder/id6478720860">
+          <img class="app-screenshot" src="images/fore-finder-screenshot.jpg" alt="Fore Finder Screenshot">
+        </a>
+        <p><a href="https://heapsheeps.notion.site/Fore-Finder-Support-c41a93d232f441fe9e81078b8e793d77">Fore Finder Support</a></p>
+      </div>
+
+      <div class="app">
+        <div class="app-heading">
+          <img class="app-icon" src="images/blp-tools-icon.png" alt="BLP Tools Icon">
+          <h3>BLP Tools</h3>
+        </div>
+        <p>Tools for getting more utility out of the Bushnell Launch Pro launch monitor.</p>
+        <a href="https://github.com/heapsheeps/blp-tools">
+          <img class="app-screenshot" src="images/blp-tools-screenshot.jpg" alt="BLP Tools Screenshot">
+        </a>
+        <p><a href="https://github.com/heapsheeps/blp-tools">BLP Tools Source Code</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>
+      Have questions or need support? Reach out to:
+      <a href="mailto:info@heapsheeps.com">info@heapsheeps.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://buymeacoffee.com/heapsheeps" title="Support my projects">
+        Support my projects
+      </a>
+    </p>
+    <p>© 2025 Heapsheeps LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
